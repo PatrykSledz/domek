@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <EditText
+        android:id="@+id/tresc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="treść wiadomości"/>
+    <EditText
+        android:id="@+id/imienazwisko"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Imie Nazwisko"
+        android:inputType="textCapWords"/>
+    <EditText
+        android:id="@+id/ulica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ulica"
+        android:inputType="textCapWords"/>
+    <EditText
+        android:id="@+id/miasto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Miasto"
+        android:inputType="textCapWords"/>
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wyślij"
+        android:onClick="send"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="back"
+        android:text="Powrót"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="O nas"
+        android:onClick="in3"/>
+
+</LinearLayout>
